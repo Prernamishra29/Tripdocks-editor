@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { VARIABLES } from "../utils/variables";
+import { VARIABLES } from "../utils/variables.ts";
 import styles from "../styles/editor.module.css";
 
 interface VariablePopoverProps {

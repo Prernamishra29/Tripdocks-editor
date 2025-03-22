@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useEditor, EditorContent } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
-import { Variable } from "../extensions/Variable";
-import VariablePopover from "./VariablePopover";
+import { Variable } from "../extensions/Variable.ts";
+import VariablePopover from "./VariablePopover.tsx";
 import styles from "../styles/editor.module.css";
 import Underline from "@tiptap/extension-underline";
 import TextAlign from "@tiptap/extension-text-align";
